@@ -6,8 +6,7 @@ const StyledBanner = styled.div`
     display: flex;
     margin-top: 50px;
     width: 100vw;
-    height: 300px;
-    padding: 6px; 
+    height: 200px;
     `;
 
 const Banner = () => {
