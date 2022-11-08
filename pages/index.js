@@ -2,7 +2,8 @@ import ViniTube from "../ViniTube.json";
 import styled from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
 import Menu from "../src/components/Menu";
-import { StyledTimeline, styledTimeline } from "../src/components/Timeline";
+import { StyledTimeline } from "../src/components/Timeline";
+import Banner from "../src/components/Banner";
 
 function HomePage() {
     const estilosDaHomePage = { 
@@ -42,12 +43,13 @@ const StyledHeader = styled.div`
             padding: 16px 32px;
             gap: 16px
         }
+        
     `;
 
 function Header() {
     return (
         <StyledHeader>
-            {/* <img src="banner" /> */}
+            <Banner/>
             <section className="user-info">
                 <img src={`http://github.com/${ViniTube.github}.png`} />
                 <div>
