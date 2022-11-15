@@ -4,15 +4,17 @@ import bg from '/src/imgs/banner.jpg'
 
 const StyledBanner = styled.div`
     display: flex;
+    background-position: left 70%;
     margin-top: 50px;
     width: 100vw;
     height: 200px;
+    ;
     `;
 
 const Banner = () => {
   return (
     <StyledBanner style={{
-      backgroundImage: `url(${bg.src})`, backgroundSize: 'cover'      
+      backgroundImage: `url(${bg.src})`, backgroundSize: 'cover'    
     }}/>
   )
 }

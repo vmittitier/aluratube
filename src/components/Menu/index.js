@@ -39,7 +39,7 @@ export default function Menu({ valorDoFiltro, setValorDoFiltro }) {
 }
 
 function Logo() {
-  return (<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="200.000000pt" height="61.000000pt" viewBox="0 0 266.000000 61.000000" preserveAspectRatio="xMidYMid meet">
+  return (<svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="200.000000pt" height="30.000000pt" viewBox="0 0 266.000000 61.000000" preserveAspectRatio="xMidYMid meet">
 
   <g transform="translate(0.000000,61.000000) scale(0.100000,-0.100000)" fill="red" stroke="none">
   <path d="M2165 591 c-119 -29 -154 -95 -155 -292 0 -238 60 -293 320 -293 149 0 211 15 260 64 46 46 60 101 60 235 0 244 -57 296 -324 294 -72 -1 -144 -4 -161 -8z m180 -245 l90 -43 -88 -42 c-49 -22 -95 -41 -103 -41 -11 0 -14 19 -14 85 0 62 3 85 13 84 6 0 53 -20 102 -43z"/>
